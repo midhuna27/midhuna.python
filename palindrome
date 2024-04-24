@@ -1,11 +1,9 @@
-a=int(input("enter the number:"))
-rev=a
-sum=0
-while a!= 0:
-    rem = a%10
-    sum=sum*10+rem
-    a//=10
-if (rev == sum):
-    print(f"{sum} is plaindrome")
+my_str = '121'
+my_str = my_str.casefold()
+
+rev_str = reversed(my_str)
+
+if list(my_str) == list(rev_str):
+   print("The string is a palindrome.")
 else:
-    print("not palindrome")
+   print("The string is not a palindrome.")
