@@ -1,0 +1,8 @@
+def singleNumber(nums):
+    count = 0
+    for i in nums:
+        count = count^i
+    return count
+
+nums = [2, 2, 1]
+print(singleNumber(nums))
