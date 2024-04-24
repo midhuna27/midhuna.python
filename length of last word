@@ -1,0 +1,3 @@
+S="Hello World"
+my_string="World"
+print(len(my_string))
